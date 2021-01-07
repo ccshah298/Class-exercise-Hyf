@@ -1,0 +1,19 @@
+
+[
+   {  "order":1,
+      "name": "pizza margherita",
+      "id": 777,
+      "price": 80,
+      "listOfDrinks": ["mojito", "mazza"],
+      "extras": ["mushrooms", "mayo"]
+    },
+  
+   {  "order" :2,
+      "name": "pizza veg",
+      "id": 778,
+      "price": 100,
+      "listOfDrinks": ["coca-cola", "sprite"],
+      "extras": ["peppers"]
+    }
+  ]
+  
