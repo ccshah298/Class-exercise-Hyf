@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const router = express.Router();
 
-const concertsRouter = require("./api/concerts");
+const contactsRouter = require("./api/contacts");
 
 const port = process.env.PORT || 3000;
 
@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 // Parse JSON bodies (as sent by API clients)
 app.use(express.json());
 
-router.use("/concerts", concertsRouter);
+router.use("/contacts", contactsRouter);
 
 app.use("/api", router);
 
